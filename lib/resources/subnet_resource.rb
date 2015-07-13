@@ -1,11 +1,11 @@
-require 'aws-sdk'
-require 'serverspec'
+#require 'aws-sdk'
+#require 'serverspec'
 
-require_relative 'vpn_gateway_resource'
+#require_relative 'vpn_gateway_resource'
 require_relative 'subnets_resource'
 require_relative 'ec2_instance_resource'
 
-module Serverspec
+#module Serverspec
   module Type
   	class ROUTETABLE < Base
   		def initialize(routetable_id)
