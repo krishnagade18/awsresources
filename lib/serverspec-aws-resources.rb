@@ -1,7 +1,6 @@
 require_relative 'resources/s3_bucket_resource'
 require_relative 'resources/vpc_resource'
 require_relative 'resources/subnets_resource'
-require_relative 'resources/subnet_resource'
 require_relative 'resources/vpn_gateway_resource'
 require_relative 'resources/ec2_instance_resource'
 require_relative 'resources/dynamodb_resource'
